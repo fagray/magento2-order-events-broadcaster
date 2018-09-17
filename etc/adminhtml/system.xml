@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="../../../Backend/etc/system_file.xsd">
+    <system>
+        <tab id="orderventbroadcaster" translate="label" sortOrder="1">
+            <label>Order Events Broadcaster</label>
+        </tab>
+        <section id="ordereventsbroadcaster" translate="label" sortOrder="1" showInDefault="1" 
+showInWebsite="1" showInStore="1">
+            <label>Broadcaster</label>
+            <tab>orderventbroadcaster</tab>
+            <resource>Rayms_OrderEventsBroadcaster::system_config</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" 
+showInWebsite="1" showInStore="1">
+                <label>Broadcast Settings</label>
+                <field id="status_mode" translate="label" type="radios" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Status Mode</label>
+                    <source_model>Rayms\OrderEventsBroadcaster\Model\System\Config\Mode\BetaOrProduction</source_model>
+                </field>
+                <field id="secret_key" translate="label comment" type="text" sortOrder="2" 
+showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Webhook Secret</label>
+                    <comment>A unique sequence of random alphanumeric characters (ex: 8sudhbr4q3asd8uq3n)</comment>
+                    <validate>required-entry</validate>
+                </field>
+                <field id="info_text" translate="label" type="label" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+    <label>NOTE:</label>
+</field>
+            </group>
+
+        </section>
+        
+    </system>
+</config>

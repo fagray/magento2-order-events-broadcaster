@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="../../Core/etc/config.xsd">
+    <default>
+        <ordereventsbroadcaster>
+            <general>
+                <status_mode>beta</status_mode>
+                <secret_key>mysecret</secret_key>
+                <info_text>
+                     For more information please read the documentation at https://github.com/proaudiolink/documentation/wiki/Magento-source-setup.
+                </info_text>
+            </general>
+        </ordereventsbroadcaster>
+    </default>
+</config>
