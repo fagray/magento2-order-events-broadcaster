@@ -1,5 +1,5 @@
 {
-    "name": "Rayms/Order-Events-broadcaster",
+    "name": "rayms/order-events-broadcaster",
     "description": "A custom broadcaster for order events",
     "type": "magento2-module",
     "version": "1.0.0",
