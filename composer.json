@@ -1,6 +1,6 @@
 {
-    "name": "rayms/order-events-broadcaster",
-    "description": "A custom broadcaster for order events",
+    "name": "rayms/magento2-order-events-broadcaster",
+    "description": "A magento 2 extension that broadcast data to an API for certain order events",
     "type": "magento2-module",
     "version": "1.0.0",
     "authors": [
