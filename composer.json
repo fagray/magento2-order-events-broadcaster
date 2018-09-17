@@ -11,10 +11,6 @@
         "role": "developer"
       }
     ],
-    "repositories": {
-      "type": "composer",
-      "url": "https://repo.magento.com/"
-    },
     "autoload": {
       "files": [
         "registration.php"
