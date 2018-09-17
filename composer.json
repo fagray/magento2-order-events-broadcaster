@@ -19,7 +19,6 @@
       "type": "composer",
       "url": "https://repo.magento.com/"
     },
-    "minimum-stability": "stable",
     "autoload": {
       "files": [
         "registration.php"
